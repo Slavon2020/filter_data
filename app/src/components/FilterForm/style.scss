@@ -1,0 +1,14 @@
+.filter-form {
+  max-width: 250px;
+
+  & > label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.sex-filter {
+  display: flex;
+  justify-content: space-between;
+}

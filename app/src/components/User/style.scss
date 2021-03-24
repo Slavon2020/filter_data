@@ -1,0 +1,11 @@
+.user {
+  list-style: none;
+
+  &:not(:last-child):after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: grey;
+    width: 200px;
+  }
+}
